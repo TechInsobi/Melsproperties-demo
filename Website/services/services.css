@@ -1,0 +1,69 @@
+.statement-services{
+    font-size: 3rem;
+    
+}
+
+button{
+    padding: 1.2rem 2.25rem;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+
+/* A Content */
+.main-content-serivces-layoutA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.text-content-left{
+    flex: 6.3;
+}
+.image-content-right{
+    flex: 3.7;
+    padding: 0 0 0 5rem;
+}
+
+.image-content-right img {
+    width: 100%;              
+    max-width: 33rem;
+    aspect-ratio: 1 / 1;      
+    border-radius: 7%;       
+    object-fit: cover;        
+    display: block;
+    margin: 0 auto;           
+}
+
+/* B Content*/
+.main-content-serivces-layoutB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.text-content-right{
+    flex: 6.3;
+}
+.image-content-left{
+    flex: 3.7;
+    padding: 0 5rem 0 0;
+}
+
+.image-content-left img {
+    width: 100%;              
+    max-width: 33rem;
+    aspect-ratio: 1 / 1;      
+    border-radius: 7%;       
+    object-fit: cover;        
+    display: block;
+    margin: 0 auto;           
+}

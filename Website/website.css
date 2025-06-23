@@ -1,0 +1,35 @@
+button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    color: white;
+    
+}
+
+.shade{
+    background-color: var(--light);
+}
+
+.no-shade{
+    background-color: var(--medium);
+}
+
+.hero{
+    padding: 8rem 0 12rem 0;
+}
+
+.services{
+    padding: 1.5rem 0 9.5rem 0;
+}
+
+.why-insobi{
+    padding: 1.5rem 0 10rem 0;
+}
+
+.contact-us{
+    padding: 3rem 0 8rem 0;
+}
+
+.footer-content p{
+    padding: 1.5rem;
+    color: var(--light);
+}
