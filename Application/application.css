@@ -1,0 +1,113 @@
+.screen{
+    display: flex;
+}
+
+.menu{
+    width: 15%;
+}
+
+.main-screen{
+    width: 85%;
+}
+
+.admin-navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    padding: 5rem 0 0 0;
+    background-color: var(--dark);
+    z-index: 1000;
+    border-right: 0.75rem solid var(--contrast);
+    overflow: hidden;
+}
+
+.admin-navdiv{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+
+    
+}
+
+.admin-nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0rem;
+    font-weight: bold;
+    width: 100%;
+
+    
+    
+}
+
+.admin-nav-links button{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.3rem 0;
+    color: var(--light);
+    background-color: var(--dark);
+
+}
+
+.admin-nav-links button:hover{
+    color: var(--offpitch);
+    border-bottom: 2px solid var(--offpitch);
+}
+
+.admin-nav-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: 5rem; 
+}
+
+.admin-nav-buttons button {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.3rem 0;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.admin-nav-buttons button:hover{
+    color: var(--light);
+}
+
+.admin-profile button{
+    background-color: gray;
+    color: var(--dark);
+}
+
+.admin-logout button{
+    background-color: var(--offpitch);
+    color: var(--dark);
+}
+
+.admin-logo img{
+    height: 5rem;
+    width: 12rem;
+    align-items: center;
+}
+
+
+
+.admin-footer-bar{
+    background-color: var(--dark);
+    text-align: center;
+    color: var(--light);
+    z-index: 1001;
+}
+
+.admin-footer-content p{
+    padding: 1.5rem;
+    color: var(--light);
+}

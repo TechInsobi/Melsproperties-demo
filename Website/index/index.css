@@ -3,9 +3,11 @@
 }
 
 .section-heading{
-    font-size: 3rem;
+    font-size: 3.2rem;
+    font-weight: bold;
     padding: 0 0 2rem 0;
     text-align: center;
+    color: var(--contrast);
 }
 
 
@@ -22,14 +24,10 @@ button{
 .hero-buttons{
     display: flex;
     gap: 5rem;
-    padding: 3rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 
-.hero-buttons button{
-    padding: 0.9rem 2rem;
-    font-size: 1.5rem;
-}
 
 .hero-buttons button{
     padding: 0.9rem 2rem;
@@ -41,11 +39,13 @@ button{
     justify-content: space-between;
     font-size: 1.5rem;
     color: white;
+    padding: 1rem 0 0 0;
 }
 
 .text-content{
     flex: 6.3;
     padding: 4rem 0 0 0;
+    font-size: 1.65rem;
 }
 .image-content{
     flex: 3.7;
@@ -131,6 +131,7 @@ padding: 0 3rem 1rem 3rem;
 font-size: 1.3rem;
 }
 
+
 .prop-location{
 padding: 0.5rem 3rem 0.5rem 3rem;
 font-size: 1.3rem;
@@ -172,12 +173,12 @@ padding: 1rem 3rem 3rem 3rem;
 
 /* About us */
 
-.section-heading-about-us{
+/* .section-heading-about-us{
     font-size: 3rem;
     padding: 0 0 2rem 0;
     text-align: center;
     color: var(--contrast);
-}
+} */
 
 
 .main-content-about-us{
@@ -273,8 +274,9 @@ padding: 1rem 3rem 3rem 3rem;
 }
 
 #contactForm textarea {
-  min-height: 16.2rem;
-  resize: vertical; 
+  min-height: 15rem;
+  resize: none; 
+
 }
 
 #contactForm button {

@@ -14,7 +14,7 @@ button{
 }
 
 .hero{
-    padding: 8rem 0 12rem 0;
+    padding: 8rem 0 9rem 0;
 }
 
 .services{
@@ -29,7 +29,3 @@ button{
     padding: 3rem 0 4rem 0;
 }
 
-.footer-content p{
-    padding: 1.5rem;
-    color: var(--light);
-}

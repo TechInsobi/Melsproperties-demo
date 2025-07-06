@@ -22,10 +22,10 @@
                 <div class="nav-links">
                     <a href="/Website/PFS/ProptiesForSale.html">Properties for Sale</a>
                     <a href="/Website/PFR/ProptiesForRent.html">Properties for Rent</a>
-                    <a href="/Website/OurTeam/OurTeam.html">Our Team</a>
                 </div>
                 <div class="nav-buttons">
-                    <button>Login</a></button>
+                    <a href="Website/login/registration.html"><button>Register</button></a>
+                    <a href="Website/login/login.html"><button>Login</button></a>
                 </div>
             </div>
         </nav>
@@ -34,16 +34,14 @@
 
 
     <!-- Hero -->
-    <main>
+    <main >
         <section class="hero shade" id="hero">
             <article class="container section ">
                 <h1 class="hero-statement">Property Management Solutions</h1>
                     <div class="main-content ">
                         <div class="text-content">
-                            <p>Established since 2005, Our diverse team of qualified sales and rental agents/sales assistants are available to assist you with all 
-                                it takes to conclude a transaction of sale or rental. We manage properties from Kuilsriver to Kensington and all areas in between to Parklands. 
-                                We pride ourselves on having your best interests at heart and after-sales service is available. 
-                                Our business card to the next person is your service recommendation of our service.</p>
+                            <p>For the last 20 years, we have specialised in helping clients find the perfect homes to buy or rent while providing comprehensive property management services. 
+                                From property listings and tenant screening to maintenance and rent collection, we make the entire process seamless and stress-free for both buyers and renters.</p>
                             <div class="hero-buttons">
                                 <a href="#contact-us"><button>Property Finder  <i class="fa-solid fa-house-user"></i></button></a>
                                 <a href="#contact-us"><button>Free Valuation   <i class="fa-solid fa-magnifying-glass-dollar"></i></button></a>
@@ -63,7 +61,7 @@
         <!-- Featured Properties -->
         <section class="services no-shade" id="services">
              <article class="container section ">
-                <h1 class="section-heading"><strong>Featured Properties</strong></h1>
+                <h1 class="section-heading">Featured Properties</h1>
                         <div class="featured-properties">
                             <div class="featured-property">
                                 <div class="prop-image">
@@ -145,7 +143,7 @@
         <!-- About Us -->
         <section class="why-insobi shade" id="why-insobi">
             <article class="container section ">
-                <h1 class="section-heading-about-us">About Mel's Properties</h1>
+                <h1 class="section-heading">About Mel's Properties</h1>
                     <div class="main-content-about-us ">
                         <p>Established since 2005, Our diverse team of qualified sales and rental agents/sales assistants are available to assist you with all 
                                 it takes to conclude a transaction of sale or rental. We manage properties from Kuilsriver to Kensington and all areas in between to Parklands.<br><br>
@@ -170,24 +168,15 @@
         <!-- Contact Us -->
         <section class="contact-us no-shade" id="contact-us">
             <article class="container section ">
-                <h1 class="section-heading"><strong>Contact Us</strong></h1>
+                <h1 class="section-heading">Contact Us</h1>
                 <p class="contact-us-details"><b>Looking to sell your property? Or just curious to know what it is worth?</b><br>
                     Please fill out this form and we will contact you immediately to perform a free comparative market analysis for you.<br><br>
-                    <b>Or Should you not find what you are looking for amongst our listed properties?</b><br>
+                    <b>Or should you not find what you are looking for amongst our listed properties?</b><br>
                     Please fill out this form and we will actively search for a property for you 
                     </p>
                     <form id="contactForm">
                     <div class="form-columns">
                         <div class="form-column left">
-                        <label for="name">Name & Surname</label>
-                        <input type="text" name="name" required />
-
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email" required />
-
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" required />
-
                         <label for="enquiryType">Enquiry Type</label>
                         <select name="enquiryType" id="enquiryType" required>
                             <option value="" disabled selected>Select a type</option>
@@ -221,6 +210,16 @@
                             <option value="townhouse">Townhouse</option>
                             <option value="triplex">Triplex</option>
                         </select>
+
+                        <label for="name">Name & Surname</label>
+                        <input type="text" name="name" required />
+
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" required />
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" required />
+                        
                         </div>
 
                         <div class="form-column right">
@@ -231,7 +230,13 @@
                         <input type="text" name="suburb" id="suburb" required />
 
                         <label for="message">Additional Information</label>
-                        <textarea name="message" id="message" required></textarea>
+<textarea name="message" id="message" >Hi Mel's Properties
+
+I require some more information on the property
+
+Kind Regards,
+Sir
+</textarea>
                         </div>
                     </div>
 
@@ -253,7 +258,7 @@
             
         </article>
     </footer>
-    
+
     
     
 </body>

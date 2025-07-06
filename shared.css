@@ -4,7 +4,7 @@
     --medium: #f4f3f4;
     --dark: #000000 ;
     --contrast: #6e9609;
-    --offpitch: #e64b17;
+    --offpitch: #892d89;
     --backdrop: #222A35;
 
 }
@@ -32,6 +32,7 @@ body{
     padding-top: 2.5rem;
     
 }
+
 
 h1{
     color: var(--contrast);
@@ -81,6 +82,7 @@ p{
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    
 }
 
 .section{
@@ -110,7 +112,7 @@ p{
     display: flex;
     justify-content: space-between;
     gap:3rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     
 }
@@ -152,6 +154,11 @@ p{
 .footer-bar{
     background-color: var(--dark);
     text-align: center;
+    color: var(--light);
+}
+
+.footer-content p{
+    padding: 1.5rem;
     color: var(--light);
 }
 
